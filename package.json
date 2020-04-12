@@ -4,7 +4,8 @@
   "description": "Webpack starter template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -14,12 +15,14 @@
     "webpack"
   ],
   "author": "Sergey Arkhangelskiy",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sa2209GitHub/webpack-starter-template/issues"
   },
   "homepage": "https://github.com/sa2209GitHub/webpack-starter-template#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.2.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   }
