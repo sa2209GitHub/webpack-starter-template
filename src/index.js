@@ -1,9 +1,11 @@
 import * as $ from 'jquery';
 import Post from '@/models/Post';
 import Logo from '@/assets/logo.png';
-
+import '@/babel';
 import '@/styles/css/style.css';
 import '@/styles/less/style.less';
+import '@/styles/sass/style.sass';
+import '@/styles/scss/style.scss';
 
 const post = new Post('TITLE', Logo);
 

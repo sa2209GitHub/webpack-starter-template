@@ -1,13 +1,13 @@
-@border: 1px solid green;
+$border: 1px solid orange;
 
-.box-less {
+.box-scss {
   padding: 1rem;
   border-radius: 6px;
   margin-top: 1rem;
-  border: @border;
+  border: $border;
 
   h2 {
     text-align: center;
-    color: darkblue;
+    color: crimson;
   }
 }
